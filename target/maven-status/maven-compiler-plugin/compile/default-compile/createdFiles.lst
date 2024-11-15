@@ -1,1 +1,11 @@
+com\nuevo\proyecto\repository\UsuarioRepository.class
+com\nuevo\proyecto\model\Login.class
+com\nuevo\proyecto\model\Usuario.class
+com\nuevo\proyecto\controller\LoginController.class
+com\nuevo\proyecto\exception\ResourceNotFoundException.class
+com\nuevo\proyecto\service\UsuarioService.class
+com\nuevo\proyecto\controller\UsuarioController.class
+com\nuevo\proyecto\security\CustomAuthenticationEntryPoint.class
+com\nuevo\proyecto\exception\GlobalExceptionHandler.class
 com\nuevo\proyecto\App.class
+com\nuevo\proyecto\security\SecurityConfig.class
