@@ -94,5 +94,12 @@ public class UsuarioController {
         return ResponseEntity.ok(productos);
     }
 
+    // Obtener usuario por nombre
+    @GetMapping("/nombre/{nombre}")
+    public ResponseEntity<Usuario> obtenerUsuarioPorNombre(@PathVariable String nombre) {
+        Usuario usuario = usuarioService.obtenerUsuarioPorNombre(nombre)
+                .orElseThrow(() -> new ResourceNotFoundException("El usuario con nombre " + nombre + " no fue encontrado."));
+        return ResponseEntity.ok(usuario);
+    }
 
 }
