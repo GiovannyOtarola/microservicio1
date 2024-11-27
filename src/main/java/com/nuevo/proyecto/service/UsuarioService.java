@@ -35,6 +35,7 @@ public class UsuarioService {
             UsuarioDTO dto = new UsuarioDTO();
             dto.setId(usuario.getId());
             dto.setNombre(usuario.getNombre());
+            dto.setPassword(usuario.getPassword());
             dto.setRol(usuario.getRol());
             return dto;
         }).collect(Collectors.toList());
