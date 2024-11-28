@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 
 import com.nuevo.proyecto.service.ProductoService;
 import com.nuevo.proyecto.model.Producto;
-import com.nuevo.proyecto.model.ProductoDTO;
 import com.nuevo.proyecto.exception.ResourceNotFoundException;
 
 import jakarta.validation.Valid;
@@ -24,8 +23,8 @@ public class ProductoController {
 
     // Listar todos los productos
     @GetMapping
-    public ResponseEntity<List<ProductoDTO>> obtenerTodosLosProductos() {
-        List<ProductoDTO> productos = productoService.listarProductos();
+    public ResponseEntity<List<Producto>> listarProductos() {
+        List<Producto> productos = productoService.listarProductos();
         return ResponseEntity.ok(productos);
     }
 

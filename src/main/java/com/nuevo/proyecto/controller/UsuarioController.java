@@ -6,11 +6,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import com.nuevo.proyecto.exception.ResourceNotFoundException;
-import com.nuevo.proyecto.model.Producto;
-import com.nuevo.proyecto.model.ProductoDTO;
 import com.nuevo.proyecto.model.Usuario;
 import com.nuevo.proyecto.model.UsuarioDTO;
-import com.nuevo.proyecto.service.ProductoService;
 import com.nuevo.proyecto.service.UsuarioService;
 
 import jakarta.validation.Valid;
@@ -27,8 +24,7 @@ public class UsuarioController {
     @Autowired
     private UsuarioService usuarioService;
     
-    @Autowired
-    private ProductoService productoService;
+   
 
     // Crear un nuevo usuario
     @PostMapping
@@ -77,22 +73,6 @@ public class UsuarioController {
         return ResponseEntity.ok(usuariosDTO);
     }
 
-    // Creacion de productos asociados a un usuario
-    @PostMapping("/{usuarioId}/productos")
-    public ResponseEntity<Producto> crearProducto(@PathVariable Long usuarioId, @RequestBody Producto producto) {
-        Usuario usuario = usuarioService.obtenerUsuarioPorId(usuarioId)
-                .orElseThrow(() -> new ResourceNotFoundException("El usuario con ID " + usuarioId + " no fue encontrado."));
-
-        producto.setUsuario(usuario); 
-        Producto nuevoProducto = productoService.guardaProducto(producto); 
-        return new ResponseEntity<>(nuevoProducto, HttpStatus.CREATED);
-    }
-
-    @GetMapping("/{id}/productos")
-    public ResponseEntity<List<ProductoDTO>> obtenerProductosPorUsuario(@PathVariable Long id) {
-        List<ProductoDTO> productos = usuarioService.obtenerProductosPorUsuarioId(id);
-        return ResponseEntity.ok(productos);
-    }
 
     // Obtener usuario por nombre
     @GetMapping("/nombre/{nombre}")

@@ -7,8 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;
 
-import com.nuevo.proyecto.exception.ResourceNotFoundException;
-import com.nuevo.proyecto.model.ProductoDTO;
+
 import com.nuevo.proyecto.model.Usuario;
 import com.nuevo.proyecto.model.UsuarioDTO;
 import com.nuevo.proyecto.repository.UsuarioRepository;
@@ -51,23 +50,6 @@ public class UsuarioService {
 
     public Optional<Usuario> obtenerUsuarioPorNombre(String nombre) {
         return usuarioRepository.findByNombre(nombre);
-    }
-
-    public List<ProductoDTO> obtenerProductosPorUsuarioId(Long usuarioId) {
-        Optional<Usuario> usuarioOptional = usuarioRepository.findById(usuarioId);
-        if (usuarioOptional.isPresent()) {
-            Usuario usuario = usuarioOptional.get();
-            return usuario.getProductos().stream().map(producto -> {
-                ProductoDTO dto = new ProductoDTO();
-                dto.setId(producto.getId());
-                dto.setNombre(producto.getNombre());
-                dto.setDescripcion(producto.getDescripcion());
-                dto.setPrecio(producto.getPrecio());
-                return dto;
-            }).collect(Collectors.toList());
-        } else {
-            throw new ResourceNotFoundException("El usuario con ID " + usuarioId + " no fue encontrado.");
-        }
     }
 
 }
