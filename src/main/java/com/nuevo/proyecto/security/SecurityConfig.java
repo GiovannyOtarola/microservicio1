@@ -45,13 +45,13 @@ public class SecurityConfig {
                 .requestMatchers(HttpMethod.PUT, "/api/usuarios/**").hasRole("admin")  // PUT permitido solo para admin
                 .requestMatchers(HttpMethod.DELETE, "/api/usuarios/**").hasRole("admin") // DELETE solo para admin
                 .requestMatchers(HttpMethod.POST, "/api/login/**").permitAll()
-                .requestMatchers(HttpMethod.GET, "/api/Productos/**").authenticated()// GET permitido
-                .requestMatchers(HttpMethod.POST, "/api/Productos/**").hasRole("admin") // POST permitido solo para
-                                                                                     // admin
-                .requestMatchers(HttpMethod.PUT, "/api/Productos/**").hasRole("admin") // PUT permitido solo para
-                                                                                    // admin
-                .requestMatchers(HttpMethod.DELETE, "/api/Productos/**").hasRole("admin") // DELETE permitido solo
-                                                                                       // para admin
+                .requestMatchers(HttpMethod.GET, "/api/Productos/**").authenticated()
+                .requestMatchers(HttpMethod.POST, "/api/Productos/**").authenticated() 
+                                                                                     
+                .requestMatchers(HttpMethod.PUT, "/api/Productos/**").authenticated() 
+                                                                                    
+                .requestMatchers(HttpMethod.DELETE, "/api/Productos/**").authenticated() 
+                                                                                       
                 .anyRequest().authenticated()
             )
             .exceptionHandling(ex -> ex
