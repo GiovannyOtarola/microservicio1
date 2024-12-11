@@ -5,7 +5,7 @@ import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.Optional;
-import java.util.HashMap;
+
 import java.util.Map;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -44,6 +44,7 @@ class LoginControllerTest {
         MockitoAnnotations.openMocks(this);
     }
 
+    @SuppressWarnings("deprecation")
     @Test
     void testLoginSuccess() {
         // Configurar datos de prueba
@@ -70,6 +71,7 @@ class LoginControllerTest {
         assertEquals(200, response.getStatusCodeValue());
         assertTrue(response.getBody() instanceof Map);
 
+        @SuppressWarnings("unchecked")
         Map<String, Object> responseBody = (Map<String, Object>) response.getBody();
         assertEquals("Inicio de sesión exitoso", responseBody.get("message"));
 
@@ -79,6 +81,7 @@ class LoginControllerTest {
         assertEquals(usuario.getRol(), usuarioDTO.getRol());
     }
 
+    @SuppressWarnings("deprecation")
     @Test
     void testLoginBadCredentials() {
         // Configurar datos de prueba
@@ -99,6 +102,7 @@ class LoginControllerTest {
     }
 
 
+    @SuppressWarnings("deprecation")
     @Test
     void testLoginErrorInterno() {
         // Configurar datos de prueba
