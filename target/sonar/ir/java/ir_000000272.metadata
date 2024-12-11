@@ -1,0 +1,7 @@
+com.nuevo.proyecto.security.CustomAuthenticationEntryPoint#commence(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Lorg/springframework/security/core/AuthenticationException;)V
+false
+41af1cea7d833094b930961313c616de
+==
+getWriter jakarta.servlet.ServletResponse#getWriter()Ljava/io/PrintWriter;
+setStatus jakarta.servlet.http.HttpServletResponse#setStatus(I)V
+write java.io.PrintWriter#write(Ljava/lang/String;)V

@@ -1,0 +1,27 @@
+
+{com.nuevo.proyecto.service.CompraService#realizarCompra(Lcom/nuevo/proyecto/model/Compra;)Lcom/nuevo/proyecto/model/Compra;v
+lC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/service/CompraService.java ( "1*»
+1 (©
+¦
+ (4
+%0.com.nuevo.proyecto.repository.CompraRepository"__id*^
+
+__unknown_file (B*@*
+(com.nuevo.proyecto.service.CompraService"
+compraRepositoryÊÇ
+ (,%
+%1com.nuevo.proyecto.model.Compra"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*R
+
+__unknown_file (6
+4
+%0.com.nuevo.proyecto.repository.CompraRepository*G
+
+__unknown_file (+
+)
+compracom.nuevo.proyecto.model.Compra2save(Ljava/lang/Object;)"3
+ (-'
+%
+%1com.nuevo.proyecto.model.Compra:5
+! (.)
+compracom.nuevo.proyecto.model.CompraB,*
+(com.nuevo.proyecto.service.CompraServiceH

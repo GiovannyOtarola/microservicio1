@@ -1,0 +1,27 @@
+
+`com.nuevo.proyecto.service.ProductoService#obtenerProducto(Ljava/lang/Long;)Ljava/util/Optional;x
+nC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/service/ProductoService.java (-"1*ž
+1 (!¯
+¬
+ (!6
+%00com.nuevo.proyecto.repository.ProductoRepository"__id*b
+
+__unknown_file (F*D,
+*com.nuevo.proyecto.service.ProductoService"
+productoRepository´±
+ (.
+%1java.util.Optional"corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;*T
+
+__unknown_file (8
+6
+%00com.nuevo.proyecto.repository.ProductoRepository*2
+
+__unknown_file (
+
+idjava.lang.Long2findById(Ljava/lang/Object;)"&
+ (/
+
+%1java.util.Optional: 
+. (5
+idjava.lang.LongB.,
+*com.nuevo.proyecto.service.ProductoServiceH

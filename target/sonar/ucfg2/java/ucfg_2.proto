@@ -1,0 +1,38 @@
+
+;__sonar_lambda_2$com.nuevo.proyecto.security.SecurityConfigx
+nC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/security/SecurityConfig.java= >(I"startingBlock*ì
+startingBlock= >(IË
+È
+
+__unknown_file (A
+SecurityConfig.this*com.nuevo.proyecto.security.SecurityConfig"__id*c
+
+__unknown_file (G*E,
+*com.nuevo.proyecto.security.SecurityConfig"
+SecurityConfig.this*
+1*—
+1=% =('Ü
+Ù
+>* >(HA
+%45:com.nuevo.proyecto.security.CustomAuthenticationEntryPoint"__id*ƒ
+
+__unknown_file (g*e
+A
+SecurityConfig.this*com.nuevo.proyecto.security.SecurityConfig" 
+customAuthenticationEntryPoint·´
+=% >(Ia
+%46Zorg.springframework.security.config.annotation.web.configurers.ExceptionHandlingConfigurer"Œorg.springframework.security.config.annotation.web.configurers.ExceptionHandlingConfigurer#authenticationEntryPoint(Lorg/springframework/security/web/AuthenticationEntryPoint;)Lorg/springframework/security/config/annotation/web/configurers/ExceptionHandlingConfigurer;*~
+
+__unknown_file (b
+`
+exZorg.springframework.security.config.annotation.web.configurers.ExceptionHandlingConfigurer*_
+
+__unknown_file (C
+A
+%45:com.nuevo.proyecto.security.CustomAuthenticationEntryPoint2UauthenticationEntryPoint(Lorg/springframework/security/web/AuthenticationEntryPoint;)"o
+=% >(Ic
+a
+%46Zorg.springframework.security.config.annotation.web.configurers.ExceptionHandlingConfigurer:l
+= =(!`
+exZorg.springframework.security.config.annotation.web.configurers.ExceptionHandlingConfigurerB20
+.org.springframework.security.config.Customizer

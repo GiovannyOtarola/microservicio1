@@ -1,1 +1,16 @@
+com\nuevo\proyecto\CompraControllerTest.class
+com\nuevo\proyecto\CompraServiceTest.class
+com\nuevo\proyecto\LoginControllerTest.class
+com\nuevo\proyecto\ProductoControllerTest.class
+com\nuevo\proyecto\SecurityConfigTest.class
+com\nuevo\proyecto\ProductoTest.class
+com\nuevo\proyecto\ProductoServiceTest.class
+com\nuevo\proyecto\CompraTest.class
+com\nuevo\proyecto\UsuarioDTOTest.class
 com\nuevo\proyecto\AppTest.class
+com\nuevo\proyecto\LoginTest.class
+com\nuevo\proyecto\UsuarioControllerTest.class
+com\nuevo\proyecto\UsuarioServiceTest.class
+com\nuevo\proyecto\UsuarioTest.class
+com\nuevo\proyecto\GlobalExceptionHandlerTest.class
+com\nuevo\proyecto\CustomAuthenticationEntryPointTest.class

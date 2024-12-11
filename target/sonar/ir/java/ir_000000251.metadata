@@ -1,0 +1,7 @@
+com.nuevo.proyecto.controller.UsuarioController#obtenerUsuario(Ljava/lang/Long;)Lorg/springframework/http/ResponseEntity;
+false
+75484d91c1f3e8595e7a53f9fc7c06fc
+java.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;
+org.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;
+==
+obtenerUsuarioPorId com.nuevo.proyecto.service.UsuarioService#obtenerUsuarioPorId(Ljava/lang/Long;)Ljava/util/Optional;

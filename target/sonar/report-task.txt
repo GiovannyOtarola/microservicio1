@@ -1,0 +1,7 @@
+organization=giovannyotarola
+projectKey=GiovannyOtarola_microservicio1
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.58530
+dashboardUrl=https://sonarcloud.io/dashboard?id=GiovannyOtarola_microservicio1
+ceTaskId=AZO2-S20rPjK9uH9R764
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZO2-S20rPjK9uH9R764

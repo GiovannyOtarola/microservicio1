@@ -1,0 +1,27 @@
+
+Åcom.nuevo.proyecto.service.ProductoService#guardaProducto(Lcom/nuevo/proyecto/model/Producto;)Lcom/nuevo/proyecto/model/Producto;x
+nC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/service/ProductoService.java (""1*À
+1 (!Ø
+¨
+ (!6
+%00com.nuevo.proyecto.repository.ProductoRepository"__id*b
+
+__unknown_file (F*D,
+*com.nuevo.proyecto.service.ProductoService"
+productoRepository“œ
+ (0'
+%1!com.nuevo.proyecto.model.Producto"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*T
+
+__unknown_file (8
+6
+%00com.nuevo.proyecto.repository.ProductoRepository*K
+
+__unknown_file (/
+-
+producto!com.nuevo.proyecto.model.Producto2save(Ljava/lang/Object;)"5
+ (1)
+'
+%1!com.nuevo.proyecto.model.Producto:9
+# (4-
+producto!com.nuevo.proyecto.model.ProductoB.,
+*com.nuevo.proyecto.service.ProductoServiceH

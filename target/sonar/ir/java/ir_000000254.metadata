@@ -1,0 +1,6 @@
+com.nuevo.proyecto.controller.UsuarioController#obtenerTodosLosUsuarios()Lorg/springframework/http/ResponseEntity;
+false
+ab68c95921cf16aee11f19fc650661ec
+org.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;
+==
+obtenerTodosLosUsuarios com.nuevo.proyecto.service.UsuarioService#obtenerTodosLosUsuarios()Ljava/util/List;

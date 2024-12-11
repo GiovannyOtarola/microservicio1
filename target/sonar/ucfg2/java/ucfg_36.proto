@@ -1,0 +1,83 @@
+
+|com.nuevo.proyecto.controller.ProductoController#eliminarProducto(Ljava/lang/Long;)Lorg/springframework/http/ResponseEntity;~
+tC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/controller/ProductoController.java0  0(0"1*·
+12 2(¨
+©
+2 2(0
+%0*com.nuevo.proyecto.service.ProductoService"__id*e
+
+__unknown_file (I*G2
+0com.nuevo.proyecto.controller.ProductoController"
+productoService∞≠
+2 2(+
+%1java.util.Optional"`com.nuevo.proyecto.service.ProductoService#obtenerProducto(Ljava/lang/Long;)Ljava/util/Optional;*N
+
+__unknown_file (2
+0
+%0*com.nuevo.proyecto.service.ProductoService*2
+
+__unknown_file (
+
+idjava.lang.Long2!obtenerProducto(Ljava/lang/Long;)ß
+§
+3 3(t!
+%2java.util.function.Supplier"__declareFunction*b
+
+__unknown_file (FD
+B__sonar_lambda_11$com.nuevo.proyecto.controller.ProductoControllerÅ
+
+
+__unknown_file ()
+!
+%2java.util.function.Supplier"
+id"__id*2
+
+__unknown_file (
+
+idjava.lang.Long¨©
+2 3(u'
+%7!com.nuevo.proyecto.model.Producto"Ojava.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;*6
+
+__unknown_file (
+
+%1java.util.Optional*?
+
+__unknown_file (#
+!
+%2java.util.function.Supplier2*orElseThrow(Ljava/util/function/Supplier;)¨
+©
+6 6(0
+%8*com.nuevo.proyecto.service.ProductoService"__id*e
+
+__unknown_file (I*G2
+0com.nuevo.proyecto.controller.ProductoController"
+productoServiceëé
+6 6(,
+
+%9void"Ncom.nuevo.proyecto.service.ProductoService#eliminarProducto(Ljava/lang/Long;)V*N
+
+__unknown_file (2
+0
+%8*com.nuevo.proyecto.service.ProductoService*2
+
+__unknown_file (
+
+idjava.lang.Long2"eliminarProducto(Ljava/lang/Long;)Ç
+ˇ
+8 8()=
+%106org.springframework.http.ResponseEntity$HeadersBuilder"korg.springframework.http.ResponseEntity#noContent()Lorg/springframework/http/ResponseEntity$HeadersBuilder;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntityåâ
+8 8(1.
+%11'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity$HeadersBuilder#build()Lorg/springframework/http/ResponseEntity;*[
+
+__unknown_file (?
+=
+%106org.springframework.http.ResponseEntity$HeadersBuilder2build()"<
+8 8(20
+.
+%11'org.springframework.http.ResponseEntity: 
+01 0(F
+idjava.lang.LongB42
+0com.nuevo.proyecto.controller.ProductoControllerH

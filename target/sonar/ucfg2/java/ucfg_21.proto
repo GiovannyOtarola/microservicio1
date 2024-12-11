@@ -1,0 +1,47 @@
+
+@__sonar_lambda_6$com.nuevo.proyecto.controller.UsuarioController}
+sC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/controller/UsuarioController.java( ((s"startingBlock*≥
+startingBlock( ((sí
+è
+
+__unknown_file (
+idjava.lang.Long"__id*W
+
+__unknown_file (;*91
+/com.nuevo.proyecto.controller.UsuarioController"
+id*
+1*Œ
+1(A ((Uv
+t
+(A ((Z
+%3java.lang.String"__concat*"
+(A ((U
+El usuario con ID *"
+(X ((Z
+
+idjava.lang.Longy
+w
+(A ((r
+%4java.lang.String"__concat*$
+(A ((Z
+
+%3java.lang.String*#
+(] ((r
+ no fue encontrado.ÉÄ
+(' ((@<
+%56com.nuevo.proyecto.exception.ResourceNotFoundException"6com.nuevo.proyecto.exception.ResourceNotFoundException˘
+ˆ
+(# ((s
+%6"Rcom.nuevo.proyecto.exception.ResourceNotFoundException#<init>(Ljava/lang/String;)V*Z
+
+__unknown_file (>
+<
+%56com.nuevo.proyecto.exception.ResourceNotFoundException*4
+
+__unknown_file (
+
+%4java.lang.String"J
+(# ((s>
+<
+%56com.nuevo.proyecto.exception.ResourceNotFoundExceptionB
+java.util.function.Supplier

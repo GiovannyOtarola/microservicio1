@@ -1,0 +1,21 @@
+
+Lcom.nuevo.proyecto.service.ProductoService#listarProductos()Ljava/util/List;x
+nC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/service/ProductoService.java ()"1*¼
+1 (!¯
+¬
+ (!6
+%00com.nuevo.proyecto.repository.ProductoRepository"__id*b
+
+__unknown_file (F*D,
+*com.nuevo.proyecto.service.ProductoService"
+productoRepositoryÖÓ
+ (+
+%1java.util.List"Porg.springframework.data.repository.ListCrudRepository#findAll()Ljava/util/List;*T
+
+__unknown_file (8
+6
+%00com.nuevo.proyecto.repository.ProductoRepository2	findAll()""
+ (,
+
+%1java.util.ListB.,
+*com.nuevo.proyecto.service.ProductoServiceH

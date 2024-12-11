@@ -1,0 +1,9 @@
+com.nuevo.proyecto.controller.UsuarioController#eliminarUsuario(Ljava/lang/Long;)Lorg/springframework/http/ResponseEntity;
+false
+22ac79b5dd2245aeaeb5227507eea1bb
+java.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;
+org.springframework.http.ResponseEntity#noContent()Lorg/springframework/http/ResponseEntity$HeadersBuilder;
+==
+build org.springframework.http.ResponseEntity$HeadersBuilder#build()Lorg/springframework/http/ResponseEntity;
+eliminarUsuario com.nuevo.proyecto.service.UsuarioService#eliminarUsuario(Ljava/lang/Long;)V
+obtenerUsuarioPorId com.nuevo.proyecto.service.UsuarioService#obtenerUsuarioPorId(Ljava/lang/Long;)Ljava/util/Optional;

@@ -1,0 +1,67 @@
+
+Scom.nuevo.proyecto.service.UsuarioService#obtenerTodosLosUsuarios()Ljava/util/List;w
+mC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/service/UsuarioService.java (3"1*Ü
+1 !  (2¬
+©
+ !  (25
+%0/com.nuevo.proyecto.repository.UsuarioRepository"__id*`
+
+__unknown_file (D*B+
+)com.nuevo.proyecto.service.UsuarioService"
+usuarioRepositoryÕÒ
+ !  (<
+%1java.util.List"Porg.springframework.data.repository.ListCrudRepository#findAll()Ljava/util/List;*S
+
+__unknown_file (7
+5
+%0/com.nuevo.proyecto.repository.UsuarioRepository2	findAll()b
+`
+   (=
+usuariosjava.util.List"__id*2
+
+__unknown_file (
+
+%1java.util.List¨¥
+! !( 
+%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
+
+__unknown_file (
+
+usuariosjava.util.List2stream() 
+
+!% ((	!
+%3java.util.function.Function"__declareFunction*[
+
+__unknown_file (?=
+;__sonar_lambda_13$com.nuevo.proyecto.service.UsuarioService£ 
+! ((
+
+%6java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%2java.util.stream.Stream*?
+
+__unknown_file (#
+!
+%3java.util.function.Function2"map(Ljava/util/function/Function;)®
+«
+( ((& 
+%7java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*;
+
+__unknown_file ("
+java.util.stream.Collectors˜•
+! (('
+%8java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*;
+
+__unknown_file (
+
+%6java.util.stream.Stream*>
+
+__unknown_file ("
+ 
+%7java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)""
+! (((
+
+%8java.util.ListB-+
+)com.nuevo.proyecto.service.UsuarioServiceH

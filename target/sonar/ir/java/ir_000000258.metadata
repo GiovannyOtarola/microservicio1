@@ -1,0 +1,4 @@
+com.nuevo.proyecto.App#main([Ljava/lang/String;)V
+false
+058a643c1a75d1372f4881b791532ee7
+org.springframework.boot.SpringApplication#run(Ljava/lang/Class;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;

@@ -1,0 +1,255 @@
+
+~com.nuevo.proyecto.controller.LoginController#login(Lcom/nuevo/proyecto/model/Login;)Lorg/springframework/http/ResponseEntity;{
+qC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/controller/LoginController.java" "(""startingBlock*ª
+24-A -(O§°
+- -(P
+
+%5void"Äorg.springframework.security.core.context.SecurityContext#setAuthentication(Lorg/springframework/security/core/Authentication;)V*]
+
+__unknown_file (A
+?
+%49org.springframework.security.core.context.SecurityContext*`
+
+__unknown_file (D
+B
+authentication0org.springframework.security.core.Authentication2EsetAuthentication(Lorg/springframework/security/core/Authentication;)*
+23*Ä
+25% *(≠
+™
+% *(B
+authentication0org.springframework.security.core.Authentication"__id*T
+
+__unknown_file (8
+6
+%30org.springframework.security.core.Authenticationπ
+∂
+- -(.?
+%49org.springframework.security.core.context.SecurityContext"áorg.springframework.security.core.context.SecurityContextHolder#getContext()Lorg/springframework/security/core/context/SecurityContext;*_
+
+__unknown_file (C"A
+?org.springframework.security.core.context.SecurityContextHolder*
+24*±
+26%, *(öó
+%, *(6
+%30org.springframework.security.core.Authentication"¥org.springframework.security.authentication.AuthenticationManager#authenticate(Lorg/springframework/security/core/Authentication;)Lorg/springframework/security/core/Authentication;*e
+
+__unknown_file (I
+G
+%0Aorg.springframework.security.authentication.AuthenticationManager*s
+
+__unknown_file (W
+U
+%1Oorg.springframework.security.authentication.UsernamePasswordAuthenticationToken2@authenticate(Lorg/springframework/security/core/Authentication;)*
+25*û
+27& )(µ≤
+& &(7U
+%1Oorg.springframework.security.authentication.UsernamePasswordAuthenticationToken"Oorg.springframework.security.authentication.UsernamePasswordAuthenticationTokenœ
+Ã
+& )(
+%2"}org.springframework.security.authentication.UsernamePasswordAuthenticationToken#<init>(Ljava/lang/Object;Ljava/lang/Object;)V*s
+
+__unknown_file (W
+U
+%1Oorg.springframework.security.authentication.UsernamePasswordAuthenticationToken*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+26*›
+29%, %(A∆
+√
+%, %(AG
+%0Aorg.springframework.security.authentication.AuthenticationManager"__id*h
+
+__unknown_file (L*J/
+-com.nuevo.proyecto.controller.LoginController"
+authenticationManager*
+27*¶
+194 4(5è
+å
+4 4(51
+
+usuarioDTO#com.nuevo.proyecto.model.UsuarioDTO"__id*G
+
+__unknown_file (+
+)
+%9#com.nuevo.proyecto.model.UsuarioDTO*
+11*≈
+startingBlock"" "(<|
+z
+
+__unknown_file (
+%22"__id*Q
+
+__unknown_file (5*3
+'
+logincom.nuevo.proyecto.model.Login"
+nombre~
+|
+
+__unknown_file (
+%23"__id*S
+
+__unknown_file (7*5
+'
+logincom.nuevo.proyecto.model.Login"
+
+passwordö
+ó
+"# "(/
+%24"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*#
+
+__unknown_file (
+
+%22t
+r
+"6 "(;3
+'
+logincom.nuevo.proyecto.model.Login"
+nombre"__annotation*#
+
+__unknown_file (
+
+%24ö
+ó
+"# "(/
+%25"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*#
+
+__unknown_file (
+
+%23v
+t
+"6 "(;5
+'
+logincom.nuevo.proyecto.model.Login"
+
+password"__annotation*#
+
+__unknown_file (
+
+%25*
+29*K
+7@ @(/"<
+@ @(/0
+.
+%15'org.springframework.http.ResponseEntity*Ω
+8@ @(!®
+•
+@ @(..
+%15'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*7
+
+__unknown_file (
+
+responsejava.util.Map*
+7*¯
+9= =(„
+‡
+= =(/
+%14java.lang.Object"__mapSet*7
+
+__unknown_file (
+
+responsejava.util.Map*'
+
+__unknown_file (	
+usuario*O
+
+__unknown_file (3
+1
+
+usuarioDTO#com.nuevo.proyecto.model.UsuarioDTO*
+8*Ê
+200 1([c
+a
+0 1([+
+usuario com.nuevo.proyecto.model.Usuario"__id*"
+
+__unknown_file (
+""\Z
+4( 4(2)
+%9#com.nuevo.proyecto.model.UsuarioDTO"#com.nuevo.proyecto.model.UsuarioDTOå
+â
+4$ 4(4
+%10"-com.nuevo.proyecto.model.UsuarioDTO#<init>()V*G
+
+__unknown_file (+
+)
+%9#com.nuevo.proyecto.model.UsuarioDTO*
+19*ù
+211 1(YÜ
+É
+1 1(Y
+%8"__declareFunction*^
+
+__unknown_file (B@
+>__sonar_lambda_5$com.nuevo.proyecto.controller.LoginController*
+20* 
+10; ;(;e
+c
+; ;(;
+responsejava.util.Map"__id*6
+
+__unknown_file (
+
+%11java.util.HashMapÕ
+ 
+< <(?
+%13java.lang.Object"__mapSet*7
+
+__unknown_file (
+
+responsejava.util.Map*'
+
+__unknown_file (	
+message*9
+
+__unknown_file (
+Inicio de sesi√≥n exitoso*
+9*µ
+220 0(Wûõ
+0 0(W
+%7"icom.nuevo.proyecto.service.UsuarioService#obtenerUsuarioPorNombre(Ljava/lang/String;)Ljava/util/Optional;*M
+
+__unknown_file (1
+/
+%6)com.nuevo.proyecto.service.UsuarioService*"
+
+__unknown_file (
+""2+obtenerUsuarioPorNombre(Ljava/lang/String;)*
+21*π
+11;+ ;(:97
+;/ ;(8
+%11java.util.HashMap"java.util.HashMaph
+f
+;+ ;(:
+%12"java.util.HashMap#<init>()V*6
+
+__unknown_file (
+
+%11java.util.HashMap*
+10*æ
+230 0(,ß
+§
+0 0(,/
+%6)com.nuevo.proyecto.service.UsuarioService"__id*a
+
+__unknown_file (E*C/
+-com.nuevo.proyecto.controller.LoginController"
+usuarioService*
+22:3
+"# "(;'
+logincom.nuevo.proyecto.model.LoginB1/
+-com.nuevo.proyecto.controller.LoginControllerH

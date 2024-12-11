@@ -1,0 +1,9 @@
+com.nuevo.proyecto.service.UsuarioService#obtenerTodosLosUsuarios()Ljava/util/List;
+false
+84218f53f2ebc5d2733e79c29b090848
+java.util.stream.Collectors#toList()Ljava/util/stream/Collector;
+==
+collect java.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
+findAll org.springframework.data.repository.ListCrudRepository#findAll()Ljava/util/List;
+map java.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+stream java.util.Collection#stream()Ljava/util/stream/Stream;

@@ -1,0 +1,148 @@
+
+åcom.nuevo.proyecto.controller.ProductoController#crearProducto(Lcom/nuevo/proyecto/model/Producto;)Lorg/springframework/http/ResponseEntity;~
+tC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/controller/ProductoController.java!$ !(1"startingBlock*ß	
+startingBlock!1 !(Xá
+Ñ
+
+__unknown_file (
+%5"__id*\
+
+__unknown_file (@*>
+-
+producto!com.nuevo.proyecto.model.Producto"
+descripcionÅ
+
+
+__unknown_file (
+%6"__id*W
+
+__unknown_file (;*9
+-
+producto!com.nuevo.proyecto.model.Producto"
+nombre|
+z
+!2 !(8
+%7"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*"
+
+__unknown_file (
+
+%6ò
+ï
+!9 !(E
+%8"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%6û
+õ
+!O !(W9
+-
+producto!com.nuevo.proyecto.model.Producto"
+nombre"__annotation*"
+
+__unknown_file (
+
+%7*"
+
+__unknown_file (
+
+%8|
+z
+!2 !(8
+%9"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*"
+
+__unknown_file (
+
+%5ô
+ñ
+!9 !(E
+%10"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%5§
+°
+!O !(W>
+-
+producto!com.nuevo.proyecto.model.Producto"
+descripcion"__annotation*"
+
+__unknown_file (
+
+%9*#
+
+__unknown_file (
+
+%10*
+1*Œ
+
+1"! "(0¨
+©
+"! "(00
+%0*com.nuevo.proyecto.service.ProductoService"__id*e
+
+__unknown_file (I*G2
+0com.nuevo.proyecto.controller.ProductoController"
+productoServiceåâ
+"! "(I'
+%1!com.nuevo.proyecto.model.Producto"Åcom.nuevo.proyecto.service.ProductoService#guardaProducto(Lcom/nuevo/proyecto/model/Producto;)Lcom/nuevo/proyecto/model/Producto;*N
+
+__unknown_file (2
+0
+%0*com.nuevo.proyecto.service.ProductoService*K
+
+__unknown_file (/
+-
+producto!com.nuevo.proyecto.model.Producto23guardaProducto(Lcom/nuevo/proyecto/model/Producto;)é
+ã
+" "(J2
+nuevoProducto!com.nuevo.proyecto.model.Producto"__id*E
+
+__unknown_file ()
+'
+%1!com.nuevo.proyecto.model.Productoa
+_
+#3 #(E)
+%2#org.springframework.http.HttpStatus"__id*"
+
+__unknown_file (
+""db
+# #(#-
+%3'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityÈ
+Ê
+# #(F
+%4"lorg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V*K
+
+__unknown_file (/
+-
+%3'org.springframework.http.ResponseEntity*P
+
+__unknown_file (4
+2
+nuevoProducto!com.nuevo.proyecto.model.Producto*G
+
+__unknown_file (+
+)
+%2#org.springframework.http.HttpStatus";
+# #(G/
+-
+%3'org.springframework.http.ResponseEntity:9
+!2 !(W-
+producto!com.nuevo.proyecto.model.ProductoB42
+0com.nuevo.proyecto.controller.ProductoControllerH

@@ -1,0 +1,5 @@
+com.nuevo.proyecto.service.UsuarioService#obtenerUsuarioPorNombre(Ljava/lang/String;)Ljava/util/Optional;
+false
+8badbda11229b2ba189b10ba6ccc5a40
+==
+findByNombre com.nuevo.proyecto.repository.UsuarioRepository#findByNombre(Ljava/lang/String;)Ljava/util/Optional;

@@ -1,0 +1,26 @@
+
+;__sonar_lambda_13$com.nuevo.proyecto.service.UsuarioServicew
+mC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/service/UsuarioService.java!% ((	"1*¾
+1" "(-\Z
+"! "(+)
+%4#com.nuevo.proyecto.model.UsuarioDTO"#com.nuevo.proyecto.model.UsuarioDTO‹
+ˆ
+" "(-
+%5"-com.nuevo.proyecto.model.UsuarioDTO#<init>()V*G
+
+__unknown_file (+
+)
+%4#com.nuevo.proyecto.model.UsuarioDTOˆ
+…
+" "(.*
+dto#com.nuevo.proyecto.model.UsuarioDTO"__id*G
+
+__unknown_file (+
+)
+%4#com.nuevo.proyecto.model.UsuarioDTO"8
+' '(,
+*
+dto#com.nuevo.proyecto.model.UsuarioDTO:7
+!% !(,+
+usuario com.nuevo.proyecto.model.UsuarioB
+java.util.function.Function

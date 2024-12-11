@@ -1,0 +1,5 @@
+com.nuevo.proyecto.service.ProductoService#obtenerProducto(Ljava/lang/Long;)Ljava/util/Optional;
+false
+29631cee685ebca58bc2cd82fb0cd41b
+==
+findById org.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;

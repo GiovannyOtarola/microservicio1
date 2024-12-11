@@ -1,0 +1,27 @@
+
+|com.nuevo.proyecto.service.UsuarioService#crearUsuario(Lcom/nuevo/proyecto/model/Usuario;)Lcom/nuevo/proyecto/model/Usuario;w
+mC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/service/UsuarioService.java ("1*Ã
+1 ( ¬
+©
+ ( 5
+%0/com.nuevo.proyecto.repository.UsuarioRepository"__id*`
+
+__unknown_file (D*B+
+)com.nuevo.proyecto.service.UsuarioService"
+usuarioRepositoryÎË
+ (.&
+%1 com.nuevo.proyecto.model.Usuario"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*S
+
+__unknown_file (7
+5
+%0/com.nuevo.proyecto.repository.UsuarioRepository*I
+
+__unknown_file (-
++
+usuario com.nuevo.proyecto.model.Usuario2save(Ljava/lang/Object;)"4
+ (/(
+&
+%1 com.nuevo.proyecto.model.Usuario:7
+  (/+
+usuario com.nuevo.proyecto.model.UsuarioB-+
+)com.nuevo.proyecto.service.UsuarioServiceH

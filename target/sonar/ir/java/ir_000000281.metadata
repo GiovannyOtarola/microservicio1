@@ -1,0 +1,5 @@
+com.nuevo.proyecto.exception.ResourceNotFoundException#<init>(Ljava/lang/String;)V
+false
+6dcdd30ecfacc222bd0cfbf7a461cdbf
+==
+<init> java.lang.RuntimeException#<init>(Ljava/lang/String;)V

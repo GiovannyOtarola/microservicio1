@@ -1,0 +1,5 @@
+com.nuevo.proyecto.exception.GlobalExceptionHandler#handleGlobalException(Ljava/lang/Exception;)Lorg/springframework/http/ResponseEntity;
+false
+0015731b74722cfa50da3a8c1692c5b0
+org.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V
+org.springframework.http.ResponseEntity#instance-init#

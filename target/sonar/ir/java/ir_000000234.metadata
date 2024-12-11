@@ -1,0 +1,11 @@
+com.nuevo.proyecto.exception.GlobalExceptionHandler#handleValidationExceptions(Lorg/springframework/web/bind/MethodArgumentNotValidException;)Lorg/springframework/http/ResponseEntity;
+false
+ad43a79ff6a5d2ba351302c3656fbb0e
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#
+org.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V
+org.springframework.http.ResponseEntity#instance-init#
+org.springframework.validation.BindException#getBindingResult()Lorg/springframework/validation/BindingResult;
+==
+forEach java.lang.Iterable#forEach(Ljava/util/function/Consumer;)V
+getAllErrors org.springframework.validation.Errors#getAllErrors()Ljava/util/List;

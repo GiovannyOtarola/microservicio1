@@ -1,0 +1,70 @@
+
+ycom.nuevo.proyecto.controller.UsuarioController#obtenerUsuario(Ljava/lang/Long;)Lorg/springframework/http/ResponseEntity;}
+sC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/controller/UsuarioController.java&# &(1"1*Œ
+1' '((©
+¶
+' '((/
+%0)com.nuevo.proyecto.service.UsuarioService"__id*c
+
+__unknown_file (G*E1
+/com.nuevo.proyecto.controller.UsuarioController"
+usuarioService∂≥
+' '(@
+%1java.util.Optional"ccom.nuevo.proyecto.service.UsuarioService#obtenerUsuarioPorId(Ljava/lang/Long;)Ljava/util/Optional;*M
+
+__unknown_file (1
+/
+%0)com.nuevo.proyecto.service.UsuarioService*2
+
+__unknown_file (
+
+idjava.lang.Long2%obtenerUsuarioPorId(Ljava/lang/Long;)•
+¢
+( ((s!
+%2java.util.function.Supplier"__declareFunction*`
+
+__unknown_file (DB
+@__sonar_lambda_6$com.nuevo.proyecto.controller.UsuarioControllerÅ
+
+
+__unknown_file ()
+!
+%2java.util.function.Supplier"
+id"__id*2
+
+__unknown_file (
+
+idjava.lang.Long´®
+' ((t&
+%7 com.nuevo.proyecto.model.Usuario"Ojava.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;*6
+
+__unknown_file (
+
+%1java.util.Optional*?
+
+__unknown_file (#
+!
+%2java.util.function.Supplier2*orElseThrow(Ljava/util/function/Supplier;)Ü
+É
+' ((u+
+usuario com.nuevo.proyecto.model.Usuario"__id*D
+
+__unknown_file ((
+&
+%7 com.nuevo.proyecto.model.Usuarioπ
+∂
+) )()-
+%8'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*I
+
+__unknown_file (-
++
+usuario com.nuevo.proyecto.model.Usuario";
+) )(*/
+-
+%8'org.springframework.http.ResponseEntity: 
+&2 &(G
+idjava.lang.LongB31
+/com.nuevo.proyecto.controller.UsuarioControllerH

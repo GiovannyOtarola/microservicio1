@@ -1,0 +1,7 @@
+com.nuevo.proyecto.controller.UsuarioController#crearUsuario(Lcom/nuevo/proyecto/model/Usuario;)Lorg/springframework/http/ResponseEntity;
+false
+038c7a66f0241f3370e2147f98584442
+org.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V
+org.springframework.http.ResponseEntity#instance-init#
+==
+crearUsuario com.nuevo.proyecto.service.UsuarioService#crearUsuario(Lcom/nuevo/proyecto/model/Usuario;)Lcom/nuevo/proyecto/model/Usuario;

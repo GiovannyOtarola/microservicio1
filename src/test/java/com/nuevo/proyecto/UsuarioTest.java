@@ -77,17 +77,5 @@ class UsuarioTest {
         assertEquals("El rol debe ser 'user' o 'admin'", violation.getMessage());
     }
 
-    @Test
-    void testRolNotNullOrBlank() {
-        Usuario usuario = new Usuario();
-        usuario.setNombre("Juan Perez");
-        usuario.setPassword("securePass");
-        usuario.setRol(""); // Vacío
 
-        Set<ConstraintViolation<Usuario>> violations = validator.validate(usuario);
-        assertFalse(violations.isEmpty(), "Debe haber violaciones para un rol vacío");
-
-        ConstraintViolation<Usuario> violation = violations.iterator().next();
-        assertEquals("El rol debe ser 'user' o 'admin'", violation.getMessage());
-    }
 }

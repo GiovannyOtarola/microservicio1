@@ -1,0 +1,7 @@
+com.nuevo.proyecto.exception.GlobalExceptionHandler#handleResourceNotFoundException(Lcom/nuevo/proyecto/exception/ResourceNotFoundException;)Lorg/springframework/http/ResponseEntity;
+false
+fc37084ca2dafef31c83fae4db30e31e
+org.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V
+org.springframework.http.ResponseEntity#instance-init#
+==
+getMessage java.lang.Throwable#getMessage()Ljava/lang/String;

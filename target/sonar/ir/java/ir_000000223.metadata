@@ -1,0 +1,8 @@
+com.nuevo.proyecto.security.SecurityConfig#authManager(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)Lorg/springframework/security/authentication/AuthenticationManager;
+false
+83c0e11eb0ec01e852f2c78923190764
+org.springframework.security.config.annotation.AbstractSecurityBuilder#build()Ljava/lang/Object;
+==
+getSharedObject org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder#getSharedObject(Ljava/lang/Class;)Ljava/lang/Object;
+userDetailsService com.nuevo.proyecto.security.SecurityConfig#userDetailsService()Lorg/springframework/security/core/userdetails/UserDetailsService;
+userDetailsService org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder#userDetailsService(Lorg/springframework/security/core/userdetails/UserDetailsService;)Lorg/springframework/security/config/annotation/authentication/configurers/userdetails/DaoAuthenticationConfigurer;

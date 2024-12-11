@@ -1,0 +1,5 @@
+com.nuevo.proyecto.service.UsuarioService#crearUsuario(Lcom/nuevo/proyecto/model/Usuario;)Lcom/nuevo/proyecto/model/Usuario;
+false
+248eda301f26063eebbba07db2af9aa6
+==
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;

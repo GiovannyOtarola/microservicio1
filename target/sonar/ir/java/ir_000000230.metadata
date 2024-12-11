@@ -1,0 +1,5 @@
+com.nuevo.proyecto.service.ProductoService#guardaProducto(Lcom/nuevo/proyecto/model/Producto;)Lcom/nuevo/proyecto/model/Producto;
+false
+defa72d259eadc7b04a62ac5310147a7
+==
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;

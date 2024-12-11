@@ -1,0 +1,5 @@
+com.nuevo.proyecto.service.ProductoService#eliminarProducto(Ljava/lang/Long;)V
+false
+65c70b01dd8a6de1a5113b22fe67be61
+==
+deleteById org.springframework.data.repository.CrudRepository#deleteById(Ljava/lang/Object;)V

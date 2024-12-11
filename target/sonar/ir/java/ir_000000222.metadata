@@ -1,0 +1,10 @@
+com.nuevo.proyecto.security.SecurityConfig#securityFilterChain(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)Lorg/springframework/security/web/SecurityFilterChain;
+false
+b00f56c1d42c95ff1a020d6ce8436d51
+org.springframework.security.config.Customizer#withDefaults()Lorg/springframework/security/config/Customizer;
+org.springframework.security.config.annotation.AbstractSecurityBuilder#build()Ljava/lang/Object;
+org.springframework.security.config.annotation.web.builders.HttpSecurity#authorizeHttpRequests(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;
+org.springframework.security.config.annotation.web.builders.HttpSecurity#cors(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;
+org.springframework.security.config.annotation.web.builders.HttpSecurity#csrf(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;
+org.springframework.security.config.annotation.web.builders.HttpSecurity#exceptionHandling(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;
+org.springframework.security.config.annotation.web.builders.HttpSecurity#httpBasic(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;

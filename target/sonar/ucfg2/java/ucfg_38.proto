@@ -1,0 +1,186 @@
+
+°com.nuevo.proyecto.controller.ProductoController#actualizarProducto(Ljava/lang/Long;Lcom/nuevo/proyecto/model/Producto;)Lorg/springframework/http/ResponseEntity;~
+tC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/controller/ProductoController.java=$ =(6"startingBlock*‘	
+startingBlock=6 =(|ê
+ç
+
+__unknown_file (
+%11"__id*d
+
+__unknown_file (H*F
+5
+detallesProducto!com.nuevo.proyecto.model.Producto"
+descripcionã
+à
+
+__unknown_file (
+%12"__id*_
+
+__unknown_file (C*A
+5
+detallesProducto!com.nuevo.proyecto.model.Producto"
+nombre~
+|
+=N =(T
+%13"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*#
+
+__unknown_file (
+
+%11ö
+ó
+=U =(a
+%14"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*#
+
+__unknown_file (
+
+%11≠
+™
+=k =({F
+5
+detallesProducto!com.nuevo.proyecto.model.Producto"
+descripcion"__annotation*#
+
+__unknown_file (
+
+%13*#
+
+__unknown_file (
+
+%14~
+|
+=N =(T
+%15"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*#
+
+__unknown_file (
+
+%12ö
+ó
+=U =(a
+%16"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*#
+
+__unknown_file (
+
+%12®
+•
+=k =({A
+5
+detallesProducto!com.nuevo.proyecto.model.Producto"
+nombre"__annotation*#
+
+__unknown_file (
+
+%15*#
+
+__unknown_file (
+
+%16*
+1*µ
+1> >(+¨
+©
+> >(+0
+%0*com.nuevo.proyecto.service.ProductoService"__id*e
+
+__unknown_file (I*G2
+0com.nuevo.proyecto.controller.ProductoController"
+productoService∞≠
+> >(?
+%1java.util.Optional"`com.nuevo.proyecto.service.ProductoService#obtenerProducto(Ljava/lang/Long;)Ljava/util/Optional;*N
+
+__unknown_file (2
+0
+%0*com.nuevo.proyecto.service.ProductoService*2
+
+__unknown_file (
+
+idjava.lang.Long2!obtenerProducto(Ljava/lang/Long;)ß
+§
+? ?(t!
+%2java.util.function.Supplier"__declareFunction*b
+
+__unknown_file (FD
+B__sonar_lambda_12$com.nuevo.proyecto.controller.ProductoControllerÅ
+
+
+__unknown_file ()
+!
+%2java.util.function.Supplier"
+id"__id*2
+
+__unknown_file (
+
+idjava.lang.Long¨©
+> ?(u'
+%7!com.nuevo.proyecto.model.Producto"Ojava.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;*6
+
+__unknown_file (
+
+%1java.util.Optional*?
+
+__unknown_file (#
+!
+%2java.util.function.Supplier2*orElseThrow(Ljava/util/function/Supplier;)â
+Ü
+> ?(v-
+producto!com.nuevo.proyecto.model.Producto"__id*E
+
+__unknown_file ()
+'
+%7!com.nuevo.proyecto.model.Producto¨
+©
+E' E(60
+%8*com.nuevo.proyecto.service.ProductoService"__id*e
+
+__unknown_file (I*G2
+0com.nuevo.proyecto.controller.ProductoController"
+productoServiceåâ
+E' E(O'
+%9!com.nuevo.proyecto.model.Producto"Åcom.nuevo.proyecto.service.ProductoService#guardaProducto(Lcom/nuevo/proyecto/model/Producto;)Lcom/nuevo/proyecto/model/Producto;*N
+
+__unknown_file (2
+0
+%8*com.nuevo.proyecto.service.ProductoService*K
+
+__unknown_file (/
+-
+producto!com.nuevo.proyecto.model.Producto23guardaProducto(Lcom/nuevo/proyecto/model/Producto;)î
+ë
+E E(P8
+productoActualizado!com.nuevo.proyecto.model.Producto"__id*E
+
+__unknown_file ()
+'
+%9!com.nuevo.proyecto.model.Producto«
+ƒ
+F F(5.
+%10'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*V
+
+__unknown_file (:
+8
+productoActualizado!com.nuevo.proyecto.model.Producto"<
+F F(60
+.
+%10'org.springframework.http.ResponseEntity: 
+=7 =(M
+idjava.lang.Long:A
+=N =({5
+detallesProducto!com.nuevo.proyecto.model.ProductoB42
+0com.nuevo.proyecto.controller.ProductoControllerH

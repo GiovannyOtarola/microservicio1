@@ -1,0 +1,5 @@
+com.nuevo.proyecto.service.CompraService#realizarCompra(Lcom/nuevo/proyecto/model/Compra;)Lcom/nuevo/proyecto/model/Compra;
+false
+ca5e6e2f6ab7dd9ca2e2889740bcf695
+==
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;

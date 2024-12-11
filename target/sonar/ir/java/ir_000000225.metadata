@@ -1,0 +1,14 @@
+com.nuevo.proyecto.security.SecurityConfig#corsConfigurationSource()Lorg/springframework/web/cors/CorsConfigurationSource;
+false
+226b18b4e9dde533a6ccc59d835f8be8
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+org.springframework.web.cors.CorsConfiguration#<init>()V
+org.springframework.web.cors.CorsConfiguration#instance-init#
+org.springframework.web.cors.UrlBasedCorsConfigurationSource#<init>()V
+org.springframework.web.cors.UrlBasedCorsConfigurationSource#instance-init#
+==
+registerCorsConfiguration org.springframework.web.cors.UrlBasedCorsConfigurationSource#registerCorsConfiguration(Ljava/lang/String;Lorg/springframework/web/cors/CorsConfiguration;)V
+setAllowCredentials org.springframework.web.cors.CorsConfiguration#setAllowCredentials(Ljava/lang/Boolean;)V
+setAllowedHeaders org.springframework.web.cors.CorsConfiguration#setAllowedHeaders(Ljava/util/List;)V
+setAllowedMethods org.springframework.web.cors.CorsConfiguration#setAllowedMethods(Ljava/util/List;)V
+setAllowedOrigins org.springframework.web.cors.CorsConfiguration#setAllowedOrigins(Ljava/util/List;)V

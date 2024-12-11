@@ -1,0 +1,24 @@
+
+Åcom.nuevo.proyecto.security.SecurityConfig#userDetailsService()Lorg/springframework/security/core/userdetails/UserDetailsService;x
+nC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/security/SecurityConfig.javaR R(0"1*˛
+1S _(	≈
+¬
+S _(	F
+%0@org.springframework.security.core.userdetails.UserDetailsService"__declareFunction*[
+
+__unknown_file (?=
+;__sonar_lambda_3$com.nuevo.proyecto.security.SecurityConfig–
+Õ
+
+__unknown_file (_
+F
+%0@org.springframework.security.core.userdetails.UserDetailsService"
+SecurityConfig.this"__id*J
+
+__unknown_file (.,
+*com.nuevo.proyecto.security.SecurityConfig"T
+S _(
+H
+F
+%0@org.springframework.security.core.userdetails.UserDetailsServiceB.,
+*com.nuevo.proyecto.security.SecurityConfigH

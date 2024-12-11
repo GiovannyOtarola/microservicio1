@@ -1,0 +1,5 @@
+com.nuevo.proyecto.service.UsuarioService#eliminarUsuario(Ljava/lang/Long;)V
+false
+a09350805e2b0712b01d1f9a23fa0a23
+==
+deleteById org.springframework.data.repository.CrudRepository#deleteById(Ljava/lang/Object;)V

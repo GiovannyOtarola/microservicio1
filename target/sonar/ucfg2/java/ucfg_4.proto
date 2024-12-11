@@ -1,0 +1,67 @@
+
+Åcom.nuevo.proyecto.security.SecurityConfig#authManager(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)Lorg/springframework/security/authentication/AuthenticationManager;x
+nC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/security/SecurityConfig.javaG! G(,"startingBlock*‘
+startingBlockG, G(?Ü
+Ù
+F F(	
+%4"
+__annotate*K
+
+__unknown_file (/-
++org.springframework.context.annotation.Bean*n
+
+__unknown_file (R
+P
+httpHorg.springframework.security.config.annotation.web.builders.HttpSecurity‘
+Ž
+G: G(>P
+httpHorg.springframework.security.config.annotation.web.builders.HttpSecurity"__annotation*"
+
+__unknown_file (
+
+%4*
+1*Š
+1I I(¸µ
+I I(Di
+%0corg.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder"…org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder#getSharedObject(Ljava/lang/Class;)Ljava/lang/Object;*n
+
+__unknown_file (R
+P
+httpHorg.springframework.security.config.annotation.web.builders.HttpSecurity*"
+
+__unknown_file (
+""2"getSharedObject(Ljava/lang/Class;)£
+ 
+H I(Eƒ
+authenticationManagerBuildercorg.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder"__id*‡
+
+__unknown_file (k
+i
+%0corg.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder»¸
+K8 K(LF
+%1@org.springframework.security.core.userdetails.UserDetailsService"com.nuevo.proyecto.security.SecurityConfig#userDetailsService()Lorg/springframework/security/core/userdetails/UserDetailsService;*J
+
+__unknown_file (.,
+*com.nuevo.proyecto.security.SecurityConfig2userDetailsService()š—
+K K(Mw
+%2qorg.springframework.security.config.annotation.authentication.configurers.userdetails.DaoAuthenticationConfigurer"­org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder#userDetailsService(Lorg/springframework/security/core/userdetails/UserDetailsService;)Lorg/springframework/security/config/annotation/authentication/configurers/userdetails/DaoAuthenticationConfigurer;*£
+
+__unknown_file (†
+ƒ
+authenticationManagerBuildercorg.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder*d
+
+__unknown_file (H
+F
+%1@org.springframework.security.core.userdetails.UserDetailsService2VuserDetailsService(Lorg/springframework/security/core/userdetails/UserDetailsService;)çä
+M M(3G
+%3Aorg.springframework.security.authentication.AuthenticationManager"`org.springframework.security.config.annotation.AbstractSecurityBuilder#build()Ljava/lang/Object;*£
+
+__unknown_file (†
+ƒ
+authenticationManagerBuildercorg.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder2build()"U
+M M(4I
+G
+%3Aorg.springframework.security.authentication.AuthenticationManager:\
+G- G(>P
+httpHorg.springframework.security.config.annotation.web.builders.HttpSecurityB.,
+*com.nuevo.proyecto.security.SecurityConfigH

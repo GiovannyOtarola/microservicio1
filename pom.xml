@@ -12,7 +12,13 @@
         <java.version>21</java.version>
         <spring.boot.version>3.3.5</spring.boot.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <sonar.projectKey>GiovannyOtarola_microservicio1</sonar.projectKey>   <!-- Proporcionado por SonarCloud -->
+        <sonar.organization>giovannyotarola</sonar.organization>  <!-- Tu organización en SonarCloud -->
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>f4e9ed4379ce367340a084c1712b9961b6d7b2c1</sonar.login> 
     </properties>
+
 
     <dependencies>
         <!-- Spring Boot Starter Web -->
@@ -144,6 +150,30 @@
                     </compilerArgs>
                 </configuration>
             </plugin>
+
+            <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M5</version>
+            <configuration>
+                <forkCount>1</forkCount>
+                <reuseForks>false</reuseForks>
+            </configuration>
+        </plugin>
+
+        <plugin>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.12</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>prepare-agent</goal>
+                        <goal>report</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
         </plugins>
     </build>
 </project>

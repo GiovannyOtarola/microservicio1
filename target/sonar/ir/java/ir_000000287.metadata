@@ -1,0 +1,5 @@
+com.nuevo.proyecto.service.UsuarioService#obtenerUsuarioPorId(Ljava/lang/Long;)Ljava/util/Optional;
+false
+f14a8a6ed7928259d60254430eb9ed1a
+==
+findById org.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;

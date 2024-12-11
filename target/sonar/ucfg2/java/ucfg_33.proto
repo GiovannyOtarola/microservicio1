@@ -1,0 +1,47 @@
+
+B__sonar_lambda_10$com.nuevo.proyecto.controller.ProductoController~
+tC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/controller/ProductoController.java* *(t"startingBlock*¥
+startingBlock* *(tì
+ê
+
+__unknown_file (
+idjava.lang.Long"__id*X
+
+__unknown_file (<*:2
+0com.nuevo.proyecto.controller.ProductoController"
+id*
+1*œ
+1*A *(Vw
+u
+*A *([
+%3java.lang.String"__concat*#
+*A *(V
+El producto con ID *"
+*Y *([
+
+idjava.lang.Longy
+w
+*A *(s
+%4java.lang.String"__concat*$
+*A *([
+
+%3java.lang.String*#
+*^ *(s
+ no fue encontrado.ÉÄ
+*' *(@<
+%56com.nuevo.proyecto.exception.ResourceNotFoundException"6com.nuevo.proyecto.exception.ResourceNotFoundException˘
+ˆ
+*# *(t
+%6"Rcom.nuevo.proyecto.exception.ResourceNotFoundException#<init>(Ljava/lang/String;)V*Z
+
+__unknown_file (>
+<
+%56com.nuevo.proyecto.exception.ResourceNotFoundException*4
+
+__unknown_file (
+
+%4java.lang.String"J
+*# *(t>
+<
+%56com.nuevo.proyecto.exception.ResourceNotFoundExceptionB
+java.util.function.Supplier

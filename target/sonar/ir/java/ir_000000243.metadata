@@ -1,0 +1,7 @@
+com.nuevo.proyecto.controller.CompraController#realizarCompra(Lcom/nuevo/proyecto/model/Compra;)Lorg/springframework/http/ResponseEntity;
+false
+67eee7d65b391fb69fdfded01fb1b2d4
+org.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V
+org.springframework.http.ResponseEntity#instance-init#
+==
+realizarCompra com.nuevo.proyecto.service.CompraService#realizarCompra(Lcom/nuevo/proyecto/model/Compra;)Lcom/nuevo/proyecto/model/Compra;

@@ -1,0 +1,38 @@
+
+kcom.nuevo.proyecto.controller.ProductoController#listarProductos()Lorg/springframework/http/ResponseEntity;~
+tC:/Users/Usuario/Documents/GitHub/microservicio1/src/main/java/com/nuevo/proyecto/controller/ProductoController.java* (9"1*á
+1# (2¬
+©
+# (20
+%0*com.nuevo.proyecto.service.ProductoService"__id*e
+
+__unknown_file (I*G2
+0com.nuevo.proyecto.controller.ProductoController"
+productoServiceÔÑ
+# (D
+%1java.util.List"Lcom.nuevo.proyecto.service.ProductoService#listarProductos()Ljava/util/List;*N
+
+__unknown_file (2
+0
+%0*com.nuevo.proyecto.service.ProductoService2listarProductos()c
+a
+ (E
+	productosjava.util.List"__id*2
+
+__unknown_file (
+
+%1java.util.List©
+¦
+ (+-
+%2'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*9
+
+__unknown_file (
+
+	productosjava.util.List";
+ (,/
+-
+%2'org.springframework.http.ResponseEntityB42
+0com.nuevo.proyecto.controller.ProductoControllerH

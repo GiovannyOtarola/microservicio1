@@ -1,0 +1,7 @@
+com.nuevo.proyecto.controller.ProductoController#crearProducto(Lcom/nuevo/proyecto/model/Producto;)Lorg/springframework/http/ResponseEntity;
+false
+f5b079c6a717768bd9e5bd72eb82f2d3
+org.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V
+org.springframework.http.ResponseEntity#instance-init#
+==
+guardaProducto com.nuevo.proyecto.service.ProductoService#guardaProducto(Lcom/nuevo/proyecto/model/Producto;)Lcom/nuevo/proyecto/model/Producto;
