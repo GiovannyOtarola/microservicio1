@@ -1,38 +1,23 @@
 package com.nuevo.proyecto;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.junit.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
+import static org.junit.Assert.assertTrue;
+
+@SpringBootTest
+public class AppTest {
+    @Test
+    public void testApp() {
+        // Prueba que se ejecuta correctamente
+        assertTrue(true);
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
+    @Test
+    public void contextLoads() {
+        // Verifica que el contexto de la aplicación se carga sin errores.
+        // Si el contexto no se carga correctamente, Spring lanzará una excepción.
     }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
+    
 }

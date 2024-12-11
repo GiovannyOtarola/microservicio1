@@ -9,4 +9,7 @@ public class UsuarioDTO {
     private String nombre;
     private String password;
     private String rol; // O cualquier otro campo que necesites
+
+    public UsuarioDTO() {
+    }
 }
